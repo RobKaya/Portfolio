@@ -1,0 +1,55 @@
+.profile-header {
+    background: linear-gradient(45deg, #ffbb91, #ff5733); /* Warm gradient background */
+    animation: gradientAnimation 10s linear infinite alternate;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #e6a15c;
+  }
+  
+  .name {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .job-title {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #e6a15c; 
+  }
+  
